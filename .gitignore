@@ -11,3 +11,4 @@ assets/**/*.css
 docs/assets/evolution-ui/scripts/app.js
 docs/assets/evolution-ui/styles/main.css
 
+assets/sassdoc/assets/css/
