@@ -8,8 +8,13 @@ $c-pop-up-3d-height: auto;
 
 $c-pop-up-3d-width: 200px;
 
+// Colors
+
+$c-pop-up-3d-bg-color: get-color('primary2', 'dark', .8);
+
 %c-tip-vars {
   border-style: solid;
+  border-color: $c-pop-up-3d-bg-color;
   display: block;
   content: "";
   position: absolute;

@@ -4,7 +4,7 @@
 
 @include c( $c-pop-up-3d-name ) {
 
-  background: get-color('primary2', 'dark', .8);
+  background: $c-pop-up-3d-bg-color;
   color: get-color('primary', 'light', 1);
   height: $c-pop-up-3d-heigth;
   left: -30px;
@@ -12,8 +12,6 @@
   top: -20px;
   width: $c-pop-up-3d-width;
   z-index: 1;
-  -webkit-transform: rotateX(5deg) rotateY(40deg) translateX(20px) ;
-  transform: rotateX(5deg) rotateY(40deg) translateX(20px) ;
 
   font-size: 16px;
 
@@ -49,7 +47,6 @@
         top: -10px;
         left: 90px;
         border-width: 0 10px 10px;
-        border-color: lightgray transparent;
       }
     }
 
@@ -59,7 +56,6 @@
         bottom: -10px;
         left: 90px;
         border-width: 10px 10px 0;
-        border-color: lightgray transparent;
       }
     }
   }
