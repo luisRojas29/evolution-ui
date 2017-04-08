@@ -31,7 +31,7 @@ import spaceSavingMinimalistForm from './evolution/space_saving_minimalist_form'
 import curtain from './evolution/curtain'
 import text2speech from './evolution/text2speech'
 import svg_pagination from './evolution/svg_pagination'
-
+import popUp3d from './evolution/pop-up-3d'
 /************************************************************************
  *
  *                      STANDARD COMPONENTS
@@ -86,8 +86,9 @@ documentReady(
   stdTabs,
   curtain,
   text2speech,
-  svg_pagination
-)
+  svg_pagination,
+  popUp3d
+);
 
 singleInputForm();
 spaceSavingMinimalistForm();

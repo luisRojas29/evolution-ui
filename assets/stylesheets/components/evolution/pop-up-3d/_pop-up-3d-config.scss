@@ -1,0 +1,25 @@
+$background: get_color('background', 'light'); // color used to dim the rest of the page
+
+$c-pop-up-3d-name: 'pop-up-3d';
+
+// Variables
+
+$c-pop-up-3d-height: auto;
+
+$c-pop-up-3d-width: 200px;
+
+// Colors
+
+$c-pop-up-3d-bg-color: lightgray;
+$c-pop-up-3d-color: white;
+
+%c-tip-vars {
+  border-style: solid;
+  border-color: $c-pop-up-3d-bg-color transparent;
+  display: block;
+  content: "";
+  position: absolute;
+  width: 0;
+}
+
+
