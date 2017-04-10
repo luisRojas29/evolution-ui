@@ -32,6 +32,7 @@ import curtain from './evolution/curtain'
 import text2speech from './evolution/text2speech'
 import svg_pagination from './evolution/svg_pagination'
 import popUp3d from './evolution/pop-up-3d'
+import safety from './evolution/safety'
 /************************************************************************
  *
  *                      STANDARD COMPONENTS
@@ -87,7 +88,8 @@ documentReady(
   curtain,
   text2speech,
   svg_pagination,
-  popUp3d
+  popUp3d,
+  safety
 );
 
 singleInputForm();
